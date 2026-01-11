@@ -23,9 +23,21 @@
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "ts-node-dev --respawn --transpile-only src/index.ts"
+    "start": "ts-node-dev --respawn --transpile-only index.ts",
+    "start:tsx": "tsx src/index.ts",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "prepare": "husky install",
+    "compile": "tsc",
+    "prod": "npm run compile && node ./dist/index.js",
+    "dev": "tsx watch src src/index.ts"
   },
   "dependencies": {
+    "@apollo/server": "^5.2.0",
+    "@types/nodemon": "^1.19.6",
+    "graphql": "^16.12.0",
+    "nodemon": "^3.1.11",
+    "ts-node": "^10.9.2",
     "ts-node-dev": "^2.0.0",
     "tsx": "^4.21.0"
   },
