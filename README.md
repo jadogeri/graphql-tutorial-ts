@@ -110,7 +110,7 @@ Note: Mutations performed during session will not persist once server restarts. 
   npm run dev
 ```
 
-3 type `http://localhost:4000` to open apollo server on any browser and run querries.
+3 type or copy `http://localhost:4000` to address bar to open apollo server and run querries.
 
 ![Screenshot 1](assets/images/usage.png)
 
