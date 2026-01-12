@@ -5,6 +5,9 @@
 
 ---
 
+![GraphQL Logo](https://everyday.codes/wp-content/uploads/2019/12/og_image.png)
+
+
 ## Description
 
 This is a beginner friendly backend application (typescript) to utilize graphql for data retrieval or modification.
