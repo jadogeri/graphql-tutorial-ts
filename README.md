@@ -7,7 +7,7 @@
 
 ## Description
 
-This is a beginner friendly backend application (typescript).
+This is a beginner friendly backend application (typescript) to utilize graphql for data retrieval or modification.
 
 ## Authors
 
